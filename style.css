@@ -1,0 +1,91 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    width: 300px;
+    height: 507px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: 30px;
+}
+
+.myName {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 6px;
+}
+
+.myLocation {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: hsl(75, 94%, 57%);
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.about-me {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-item {
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    display: inline-block;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    padding: 12px;
+    margin-left: 27px;
+    margin-right: 27px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+.button-item:hover {
+    background-color: hsl(75, 94%, 57%);
+    color:black;
+}
+
+.attribution{
+    text-align: center;
+    font-size: 15px;
+}
